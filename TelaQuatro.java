@@ -17,9 +17,7 @@ public class TelaQuatro {
 	private JTextField textField;
 	private JTextField textField_1;
 
-	/**
-	 * Launch the application.
-	 */
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -40,9 +38,7 @@ public class TelaQuatro {
 		initialize();
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
+	
 	private void initialize() {
 		frame = new JFrame();
 		frame.getContentPane().setBackground(new Color(255, 255, 128));
