@@ -17,9 +17,7 @@ public class TelaTres {
 	private JTextField textField;
 	private JTextField textField_1;
 
-	/**
-	 * Launch the application.
-	 */
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -33,16 +31,12 @@ public class TelaTres {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
+	
 	public TelaTres() {
 		initialize();
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
+	
 	private void initialize() {
 		frame = new JFrame();
 		frame.getContentPane().setBackground(new Color(255, 255, 128));
